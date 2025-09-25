@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build":"tsc -b",
+    "build": "tsc -b",
     "start": "node dist/index.js",
     "dev": "npm run start"
   },
@@ -13,6 +13,7 @@
   "description": "",
   "dependencies": {
     "@types/ws": "^8.18.1",
+    "redis": "^5.8.2",
     "ws": "^8.18.3"
   }
 }
